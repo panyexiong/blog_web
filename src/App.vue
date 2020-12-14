@@ -6,8 +6,6 @@
 </template>
 
 
-
-
 <script>
 
 import tabbar from '@/components/Tabber';
@@ -17,14 +15,10 @@ export default {
 
 
   data() {
-    return {
-
-    }
+    return {}
   },
 
-  methods: {
-
-  },
+  methods: {},
 
   components: {
     tabbar,
@@ -32,6 +26,17 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
+html {
+  height: 100%;
+}
+
+li{
+  list-style: none;
+}
 </style>

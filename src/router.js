@@ -4,7 +4,8 @@ import Home from '@/views/Home';
 import Film from '@/views/Film';
 import Center from '@/views/Center';
 
-Vue.use(Router)
+Vue.use(Router);
+
 
 const router = new Router({
     routes: [
@@ -26,6 +27,12 @@ const router = new Router({
             redirect: '/home'
         }
     ]
-})
+});
+
+//全局守卫
+// router.beforeEach(((to, from, next) => {
+//     console.log(to, from, next);
+//
+// }))
 
 export default router;

@@ -15,4 +15,22 @@
 .myActive {
   color: red;
 }
+
+nav {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  background: white;
+
+  ul{
+    display: flex;
+    li{
+      flex: 1;
+      line-height: 50px;
+      text-align: center;
+    }
+  }
+}
 </style>

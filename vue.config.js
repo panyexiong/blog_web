@@ -1,5 +1,6 @@
 module.exports = {
 
+    lintOnSave: false,
 
     devServer: {
         open: process.platform === "darwin",
@@ -10,5 +11,7 @@ module.exports = {
         hotOnly: false, // See https://github.com/vuejs/vue-cli/blob/dev/docs/cli-service.md#configuring-proxy
         proxy: null // string | Object
     },
+
+
 
 };
